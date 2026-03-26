@@ -1,0 +1,28 @@
+# 图片素材生成大师 - 依赖
+
+# 核心依赖
+requests>=2.28.0
+Pillow>=9.0.0
+python-dotenv>=1.0.0
+
+# 即梦 AI 集成
+# jimeng-adapter>=1.0.0  # 如有官方 SDK
+
+# Nano Banana Pro (使用 uv 运行，无需安装)
+
+# Seedance 集成
+# seedance-adapter>=1.0.0  # 如有官方 SDK
+
+# 视频处理
+# ffmpeg-python>=0.2.0  # 可选
+
+# 后处理
+rembg>=2.0.0  # 背景移除
+opencv-python>=4.7.0  # 可选，图像处理
+
+# 飞书集成
+# lark-oapi>=1.0.0  # 飞书开放平台 SDK
+
+# 工具
+tqdm>=4.65.0  # 进度条
+click>=8.0.0  # 命令行界面
