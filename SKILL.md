@@ -59,22 +59,15 @@ description: 图片素材生成大师 - 整合即梦 AI、Nano Banana Pro、Seed
 
 ---
 
-## 📦 安装与配置
+## 📦 安装
 
-### 环境要求
+本技能已发布到 GitHub，使用以下命令安装：
 
 ```bash
-# Python 3.10+
-python3 --version
-
-# uv 包管理器
-command -v uv
-
-# 可选：ffmpeg 视频处理
-ffmpeg -version
+npx skills add jiebao360/image-material-master -g -y
 ```
 
-### API 密钥配置
+### 配置 API 密钥
 
 创建 `~/.openclaw/workspace-main/agents/image/.env` 文件：
 
@@ -90,13 +83,6 @@ GEMINI_API_KEY="your_gemini_key"
 # 飞书 API（自动归档）
 FEISHU_APP_ID="your_app_id"
 FEISHU_APP_SECRET="your_app_secret"
-```
-
-### 依赖安装
-
-```bash
-cd ~/.openclaw/workspace-main/agents/image/skills/image-material-master
-pip install -r requirements.txt
 ```
 
 ---

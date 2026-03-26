@@ -12,16 +12,15 @@
 
 ## 📦 安装
 
+本技能已发布到 GitHub，使用以下命令安装：
+
 ```bash
-# 克隆技能
-cd ~/.openclaw/workspace-main/agents/image/skills/
-git clone <repo-url> image-material-master
+npx skills add jiebao360/image-material-master -g -y
+```
 
-# 安装依赖
-cd image-material-master
-pip install -r requirements.txt
+### 配置 API 密钥
 
-# 配置 API 密钥
+```bash
 cp .env.example .env
 # 编辑 .env 填入你的 API 密钥
 ```
